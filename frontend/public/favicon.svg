@@ -1,0 +1,26 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aapdaGradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#38BDF8" />
+      <stop offset="50%" stopColor="#0284C7" />
+      <stop offset="100%" stopColor="#0369A1" />
+    </linearGradient>
+    <linearGradient id="aapdaGradAccent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#22D3EE" />
+      <stop offset="100%" stopColor="#2563EB" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#38BDF8" />
+      <stop offset="100%" stopColor="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100" height="100" rx="20" fill="#0A1626" />
+  <path d="M 16,50 A 34,34 0 0,1 84,50" stroke="url(#aapdaGradPrimary)" stroke-width="4" stroke-linecap="round" opacity="0.85" />
+  <path d="M 26,50 A 24,24 0 0,1 74,50" stroke="url(#aapdaGradAccent)" stroke-width="4" stroke-linecap="round" opacity="0.95" />
+  <path d="M 20,52 C 26,76 42,86 50,86 C 58,86 74,76 80,52 C 72,66 58,76 50,76 C 42,76 28,66 20,52 Z" fill="url(#aapdaGradPrimary)" opacity="0.9" />
+  <ellipse cx="50" cy="46" rx="18" ry="11" fill="white" opacity="0.15" />
+  <path d="M 32,46 Q 50,30 68,46 Q 50,62 32,46 Z" stroke="#38BDF8" stroke-width="2.5" fill="none" />
+  <circle cx="50" cy="46" r="7" fill="url(#shieldGrad)" />
+  <path d="M 50,41 L 54.5,43.5 V 47 C 54.5,50.5 50,52.5 50,52.5 C 50,52.5 45.5,50.5 45.5,47 V 43.5 Z" fill="#F8FAFC" />
+</svg>

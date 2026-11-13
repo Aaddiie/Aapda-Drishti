@@ -1,0 +1,32 @@
+# Root .gitignore for AAPDA DRISHTI
+
+# Backend Environment variables & secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
+*.env
+
+# Virtual environments
+backend/.venv/
+.venv/
+env/
+venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases
+*.sqlite3
+db.sqlite3
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.oxlintrc.json
+.DS_Store
+Thumbs.db
+*.log
